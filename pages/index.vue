@@ -31,18 +31,6 @@
                 </div>
             </NuxtLink>
 
-            <NuxtLink to="/products/oxygen" class="flex text-primary ease-in-out duration-150 rounded-xl px-12 py-6 gap-4 items-center hover:bg-neutral-200 dark:hover:bg-neutral-900 hover:shadow-sm hover:ring-2 ring-inset outline-none hover:ring-indigo-600 hover:text-indigo-600">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
-                    <path fill-rule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z" clip-rule="evenodd" />
-                    <path fill-rule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z" clip-rule="evenodd" />
-                </svg>
-
-                <div>
-                    <h1 class="text-2xl font-semibold tracking-wide dark:text-indigo-50">Oxygen</h1>
-                    <span class="text-md text-neutral-500">Performance profiler</span>
-                </div>
-            </NuxtLink>
-
             <NuxtLink to="/products/hydrogen" class="flex text-primary ease-in-out duration-150 rounded-xl px-12 py-6 gap-4 items-center hover:bg-neutral-200 dark:hover:bg-neutral-900 hover:shadow-sm hover:ring-2 ring-inset outline-none hover:ring-indigo-600 hover:text-indigo-600">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
                     <path d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375z" />
@@ -52,6 +40,18 @@
                 <div>
                     <h1 class="text-2xl font-semibold tracking-wide dark:text-indigo-50">Nitro</h1>
                     <span class="text-md text-neutral-500">Package manager</span>
+                </div>
+            </NuxtLink>
+
+            <NuxtLink to="/products/oxygen" class="flex text-primary ease-in-out duration-150 rounded-xl px-12 py-6 gap-4 items-center hover:bg-neutral-200 dark:hover:bg-neutral-900 hover:shadow-sm hover:ring-2 ring-inset outline-none hover:ring-indigo-600 hover:text-indigo-600">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
+                    <path fill-rule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z" clip-rule="evenodd" />
+                    <path fill-rule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z" clip-rule="evenodd" />
+                </svg>
+
+                <div>
+                    <h1 class="text-2xl font-semibold tracking-wide dark:text-indigo-50">Oxygen</h1>
+                    <span class="text-md text-neutral-500">Performance profiler</span>
                 </div>
             </NuxtLink>
         </div>
