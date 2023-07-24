@@ -19,7 +19,6 @@
     "postcss": "^8.4.25"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.18",
     "push-dir": "^0.4.1"
   }
 }
