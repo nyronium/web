@@ -1,41 +1,41 @@
 <template>
     <footer class="flex flex-col lg:flex-row justify-center gap-8 lg:gap-24 py-12 px-4 bg-neutral-300 dark:bg-neutral-900">
         <FooterCategory title="Legal stuff">
-            <FooterLinkWidget label="General" href="/legal"/>
-            <FooterLinkWidget label="Terms" href="/legal#tos"/>
-            <FooterLinkWidget label="Privacy" href="/legal#privacy"/>
+            <FooterLink label="General" href="/legal"/>
+            <FooterLink label="Terms" href="/legal#tos"/>
+            <FooterLink label="Privacy" href="/legal#privacy"/>
         </FooterCategory>
 
         <FooterCategory title="Our products">
-            <FooterLinkWidget label="FyUTILS" href="/fyutils"/>
-            <FooterLinkWidget label="Oxygen" href="/oxygen"/>
-            <FooterLinkWidget label="Nitro" href="/nitro"/>
-            <FooterLinkWidget label="Aventurin" href="/aventurin"/>
-            <FooterLinkWidget label="Aternium" href="/aternium"/>
-            <FooterLinkWidget label="Rhodionit API" href="/rhodionit"/>
+            <FooterLink label="FyUTILS" href="/fyutils"/>
+            <FooterLink label="Oxygen" href="/oxygen"/>
+            <FooterLink label="Nitro" href="/nitro"/>
+            <FooterLink label="Aventurin" href="/aventurin"/>
+            <FooterLink label="Aternium" href="/aternium"/>
+            <FooterLink label="Rhodionit API" href="/rhodionit"/>
         </FooterCategory>
 
         <FooterCategory title="Our company">
-            <FooterLinkWidget label="About us" href="/about"/>
-            <FooterLinkWidget label="Our team" href="/team"/>
-            <FooterLinkWidget label="Support" href="/support"/>
+            <FooterLink label="About us" href="/about"/>
+            <FooterLink label="Our team" href="/team"/>
+            <FooterLink label="Support" href="/support"/>
         </FooterCategory>
 
         <FooterCategory title="Social Media">
-            <FooterLinkWidget label="Discord Server" href="https://discord.onfyre.net"/>
-            <FooterLinkWidget label="Twitter" href="https://twitter.com/onfyrenetwork"/>
-            <FooterLinkWidget label="YouTube" href="https://youtube.com/@onfyrenetwork"/>
-            <FooterLinkWidget label="GitHub" href="https://github.com/nyronium"/>
-            <FooterLinkWidget label="TikTok" href="https://tiktok.com/@onfyrenetwork"/>
-            <FooterLinkWidget label="Support" href="mailto:support@nyronium.net"/>
+            <FooterLink label="Discord Server" href="https://discord.onfyre.net"/>
+            <FooterLink label="Twitter" href="https://twitter.com/onfyrenetwork"/>
+            <FooterLink label="YouTube" href="https://youtube.com/@onfyrenetwork"/>
+            <FooterLink label="GitHub" href="https://github.com/nyronium"/>
+            <FooterLink label="TikTok" href="https://tiktok.com/@onfyrenetwork"/>
+            <FooterLink label="Support" href="mailto:support@nyronium.net"/>
         </FooterCategory>
 
         <FooterCategory title="Credits">
-            <FooterLinkWidget label="Core developer" href="https://github.com/noahonfyre"/>
-            <FooterLinkWidget label="Component framework" href="https://vuejs.org"/>
-            <FooterLinkWidget label="Routing framework" href="https://nuxt.com"/>
-            <FooterLinkWidget label="Design framework" href="https://tailwindcss.com"/>
-            <FooterLinkWidget label="Icons" href="https://heroicons.com"/>
+            <FooterLink label="Core developer" href="https://github.com/noahonfyre"/>
+            <FooterLink label="Component framework" href="https://vuejs.org"/>
+            <FooterLink label="Routing framework" href="https://nuxt.com"/>
+            <FooterLink label="Design framework" href="https://tailwindcss.com"/>
+            <FooterLink label="Icons" href="https://heroicons.com"/>
         </FooterCategory>
     </footer>
     <footer class="flex justify-between items-center px-16 py-8 bg-neutral-300 dark:bg-neutral-900">
