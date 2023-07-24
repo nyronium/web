@@ -1,6 +1,6 @@
 <template>
     <NotificationBar target="https://github.com/orgs/nyronium/discussions">
-        <span class="text-sm">Our new website is now running with Vue and TailwindCSS! <strong>Click here to discuss about the new design.</strong></span>
+        <span class="text-sm">Our new website is now running with Vue, Nuxt and TailwindCSS! <strong>Click here to discuss about the new design.</strong></span>
     </NotificationBar>
     <NavBar/>
 
