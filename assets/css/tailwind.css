@@ -43,7 +43,7 @@ body {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 250px) {
     body #__nuxt * {
         @apply hidden;
     }
