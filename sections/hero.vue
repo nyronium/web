@@ -14,8 +14,6 @@
     </section>
 </template>
 
-<script>
-export default {
-    props: ["heading", "sec_heading", "img"]
-}
+<script setup>
+defineProps(["heading", "sec_heading", "img"])
 </script>

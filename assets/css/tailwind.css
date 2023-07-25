@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-neutral-950;
+}
+
 * {
     font-family: "Poppins";
 }
@@ -35,6 +39,16 @@
 
 @media (max-width: 768px) {
     .hom {
-        display: none;
+        @apply hidden;
+    }
+}
+
+@media (max-width: 250px) {
+    body #__nuxt * {
+        @apply hidden;
+    }
+
+    body #__nuxt #screenWarning {
+        @apply block text-center mt-[45vh] px-2;
     }
 }
