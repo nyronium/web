@@ -8,9 +8,8 @@
 
         <FooterCategory title="Our products">
             <FooterLink label="FyUTILS" href="/fyutils"/>
-            <FooterLink label="Oxygen" href="/oxygen"/>
             <FooterLink label="Nitro" href="/nitro"/>
-            <FooterLink label="Aventurin" href="/aventurin"/>
+            <FooterLink label="Oxygen" href="/oxygen"/>
             <FooterLink label="Aternium" href="/aternium"/>
             <FooterLink label="Rhodionit API" href="/rhodionit"/>
         </FooterCategory>
