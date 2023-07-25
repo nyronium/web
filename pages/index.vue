@@ -2,7 +2,7 @@
     <NotificationBar target="https://github.com/orgs/nyronium/discussions">
         <span class="text-sm">Our new website is now running with Vue, Nuxt and TailwindCSS! <strong>Click here to discuss about the new design.</strong></span>
     </NotificationBar>
-    <NavBar/>
+    <Navbar/>
 
     <Hero heading="Software for everyone." sec_heading="Reimagined.">
         <p class="dark:text-indigo-50 tracking-wide flex flex-col">
@@ -77,4 +77,5 @@
         </Clickable>
     </Hero>
     <FooterSection/>
+    <span class="hidden text-primary" id="screenWarning">We're sorry, but our application doesn't support your display size.</span>
 </template>
